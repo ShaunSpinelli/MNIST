@@ -63,6 +63,8 @@ class Data:
     def shuffle(self):
         np.random.shuffle(self.train_set)
 
+
+
     def random_batch(self, bs, epoch, is_test=False ):
 
         if self.train_set is None:
